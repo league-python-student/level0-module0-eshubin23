@@ -1,8 +1,8 @@
 import turtle
 
 if __name__ == '__main__':
-    window = turtle.Screen()
-    window.bgcolor('white')
+    w = turtle.Screen()
+    w.bgcolor('white')
 
     # This code makes a new Turtle. Pick a new name for the turtle
     my_turtle = turtle.Turtle()
