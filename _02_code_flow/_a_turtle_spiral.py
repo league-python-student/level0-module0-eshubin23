@@ -30,8 +30,8 @@ if __name__ == '__main__':
         # Turn the turtle (360/7) degrees to the right
         hello.right(360/7)
         # Change the turtle width to 'i' (the loop variable)
-        
+        hello.width(i)
         # Check the pattern against the picture in the recipe. If it matches, you are done!
-    
+
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     turtle.done()
