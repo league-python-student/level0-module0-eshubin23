@@ -10,7 +10,9 @@ if __name__ == '__main__':
     # 1. Ask the user if they know how to write code.
     code=simpledialog.askstring(title="Write a code",prompt="Do you know how to write code")
     # 2. If they say "yes", tell them they will rule the world in a message box pop-up.
-    messagebox.showinfo("you will rule the world")
+    if code == 'yes':
+        messagebox.showinfo("you will rule the world")
+    else:
     # 3. Otherwise, tell them to sign up for classes at The League in an error box pop-up.
-    messagebox.showinfo("Sign up for classes at the League")
+        messagebox.showinfo("Sign up for classes at the League")
     # Run the window's .mainloop() method

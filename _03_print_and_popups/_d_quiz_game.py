@@ -1,7 +1,7 @@
 from tkinter import messagebox, simpledialog, Tk
 
 # Create an if-main code block, *hint, type main then ctrl+space to auto-complete
-    if __name__ == '__main__':
+if __name__ == '__main__':
 
     # Make a new window variable, window = Tk()
     window = Tk()
@@ -21,11 +21,10 @@ from tkinter import messagebox, simpledialog, Tk
     # MAKE MORE QUESTIONS. Ask more questions by repeating the above 
     #      // Option: Subtract a point from their score for a wrong answer
     check=simpledialog.askstring(title="answer the question", prompt="What am I")
-    if check =="a girl"
-        print("a human")
-        score=score+2
+    if check =="a girl":
+        print("a girl")
+        score=score+1
     # After all the questions have been asked, tell the user their final score
-    # remember to convert your variable to a string using the str() function 
-    str(score)
-    print
+    # remember to convert your variable to a string using the str() function
+    print(str(score))
     # Run the window's .mainloop() method
